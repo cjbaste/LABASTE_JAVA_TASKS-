@@ -22,4 +22,5 @@ class ArithmeticTask {
         System.out.println(result);
     
     }
+
 }
