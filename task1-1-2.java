@@ -20,6 +20,7 @@ class ArithmeticTask {
         result += 8;                // result = 10
         result %= 7;                // result = 3
         System.out.println(result);
+        
     
     }
 
