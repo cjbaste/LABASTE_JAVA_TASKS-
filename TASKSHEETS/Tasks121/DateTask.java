@@ -31,7 +31,7 @@ public void setDate(int m, int d, int y) {
         month = (byte) 0;
     }
 }
-public static void leapYears(DateTask date2) {
+public void leapYears(DateTask date2) {
     for (int i = 1980; i <= 2023; i = i + 4) {
         if (((i % 4 == 0) && (i % 100 != 0)) || (i % 400 == 0))
             System.out.println("The year " + i + " is a leap year");
